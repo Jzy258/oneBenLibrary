@@ -37,7 +37,12 @@ body {
 li.menu {
 	list-style: none;
 	font-size: 150%;
+
 }
+
+ul.menu {
+	padding: 0;
+	text-align: center;}
 
 #backToHome {
 	margin-top: 15px;
