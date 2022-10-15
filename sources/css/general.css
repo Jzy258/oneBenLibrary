@@ -9,22 +9,28 @@ body {
 }
 
 #mainTitle {
-	position: absolute;
-	top: 30%;
-	left: 40%;
-	width: 0px;
 	font-family: zhuanshu 楷体 黑体;
 	font-size: 250%;
+	margin: 0 0 0 0;
+	color: #ca5e00;
 }
 
 #ben {
 	height: 150px;
 	width: 150px;
-	position: absolute;
-	top: 40%;
-	left: 50%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
-.titleImg {
-	
+.title {
+	margin-top: 15%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.bLinks {
+	text-decoration: none;
+	color: #E5A100;
+	margin-left: 20px;
+	margin-top: 15px;
 }
