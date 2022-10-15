@@ -10,9 +10,10 @@ body {
 
 #mainTitle {
 	font-family: zhuanshu 楷体 黑体;
-	font-size: 250%;
+	font-size: 300%;
 	margin: 0 0 0 0;
 	color: #ca5e00;
+	font-weight: 100;
 }
 
 #ben {
