@@ -1,0 +1,22 @@
+/* CSS Document */
+@font-face {
+	font-family: zhuanshu;
+	src: url("../font/篆书字体.ttf");
+}
+
+body {
+	background-color: #fff0aa;
+}
+
+#mainTitle {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 0px;
+	font-family: zhuanshu;
+}
+
+#ben {
+	height: 50%;
+	width: 50%;
+}
