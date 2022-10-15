@@ -34,3 +34,13 @@ body {
 	margin-left: 20px;
 	margin-top: 15px;
 }
+
+li.menu {
+	list-style: none;
+	font-size: 150%;
+}
+
+#backToHome {
+	margin-top: 15px;
+	margin-left: 40px;
+}
