@@ -3,3 +3,10 @@
 body {
 	background-color: #fff0aa;
 }
+
+#mainTitle{
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 0px;
+}
