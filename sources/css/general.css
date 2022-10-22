@@ -37,7 +37,6 @@ body {
 li.menu {
 	list-style: none;
 	font-size: 150%;
-
 }
 
 ul.menu {
@@ -47,4 +46,9 @@ ul.menu {
 #backToHome {
 	margin-top: 15px;
 	margin-left: 40px;
+}
+
+img.homeIcon {
+	height: 20px;
+	width: 20px;
 }
