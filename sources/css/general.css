@@ -61,3 +61,8 @@ ol#content{
 img.headImg{
 	width: 80px;
 }
+
+a.items{
+	text-decoration: none;
+	font-size: 150%;
+}
