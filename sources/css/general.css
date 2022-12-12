@@ -53,10 +53,14 @@ img.homeIcon {
 	width: 20px;
 }
 
-ul.content{
-	text-decoration: none;
+ul.contents{
+	list-style-type: none;
+}
+
+li.content{
 	display: flex;
 	align-items: center;
+
 }
 
 img.headImg{
