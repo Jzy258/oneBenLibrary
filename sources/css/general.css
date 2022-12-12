@@ -53,7 +53,7 @@ img.homeIcon {
 	width: 20px;
 }
 
-ul#content{
+ul.content{
 	text-decoration: none;
 	display: flex;
 	align-items: center;
