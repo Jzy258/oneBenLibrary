@@ -293,14 +293,19 @@ div.notice {
 }
 
 .sidebar-header-1{
-  text-indent: 2em;
+  text-indent: 0em;
 }
 .sidebar-header-2{
-  text-indent: 4em;
+  text-indent: 2em;
 }
 .sidebar-header-3{
-  text-indent: 6em;
+  text-indent: 4em;
 }
+.sidebar-header-4{
+  text-indent: 5em;
+  text-size: 80%;
+}
+
 
 #top_navi{
   margin-top: 1.5em;
