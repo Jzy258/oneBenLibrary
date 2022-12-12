@@ -53,9 +53,10 @@ img.homeIcon {
 	width: 20px;
 }
 
-ol#content{
+ul#content{
 	text-decoration: none;
-	
+	display: flex;
+	align-items: center;
 }
 
 img.headImg{
@@ -65,4 +66,5 @@ img.headImg{
 a.items{
 	text-decoration: none;
 	font-size: 150%;
+	color: #ca5e00;
 }
