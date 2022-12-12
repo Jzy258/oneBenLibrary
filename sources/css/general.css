@@ -57,12 +57,6 @@ ul.contents{
 	list-style-type: none;
 }
 
-li.content{
-	display: flex;
-	align-items: center;
-
-}
-
 img.headImg{
 	width: 80px;
 }
@@ -71,4 +65,6 @@ a.items{
 	text-decoration: none;
 	font-size: 150%;
 	color: #ca5e00;
+	display: flex;
+	align-items: center;
 }
