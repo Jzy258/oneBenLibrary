@@ -21,10 +21,8 @@ body {
 	width: 150px;
 }
 
-.title {
+.indexTitle {
 	margin-top: 15%;
-	margin-left: 40%;
-	margin-right: 40%;
 }
 
 .bLinks {
@@ -44,6 +42,7 @@ ul.menu {
 #backToHome {
 	margin-top: 15px;
 	margin-left: 40px;
+	margin-bottom: 15px;
 }
 
 img.homeIcon {
