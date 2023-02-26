@@ -9,7 +9,7 @@ body {
 	background-color: #fff0aa;
 }
 
-p.nText{
+p.nText {
 	color: #ca5e00;
 }
 
@@ -18,13 +18,23 @@ a.bLinks {
 	color: #E5A100;
 }
 
-div.back{
+div.back {
 	margin-top: 30px;
 	margin-left: 50px;
 	margin-bottom: 20px;
 }
 
-div.contents{
+div.descs{
+	margin-top: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ca5e00;
+	flex-direction: column;
+	padding-left: 10%;
+}
+
+div.contents {
 	padding-left: 10%;
 }
 
@@ -52,7 +62,7 @@ ul.menu {
 	padding: 0;
 }
 
-img.lsLogo{
+img.lsLogo {
 	height: 20px;
 	width: 20px;
 }
@@ -62,7 +72,7 @@ img.lsLogo{
 	margin-top: 15%;
 }
 
-div.titles{
+div.titles {
 	margin-top: 15%;
 	display: flex;
 	justify-content: center;
@@ -71,7 +81,7 @@ div.titles{
 	flex-direction: column;
 }
 
-h1 > div.titles{
+h1 > div.titles {
 	color: #ca5e00
 }
 
@@ -97,15 +107,15 @@ img.homeIcon {
 	width: 20px;
 }
 
-ul.contents{
+ul.contents {
 	list-style-type: none;
 }
 
-img.headImg{
+img.headImg {
 	width: 80px;
 }
 
-a.items{
+a.items {
 	text-decoration: none;
 	font-size: 150%;
 	color: #ca5e00;
