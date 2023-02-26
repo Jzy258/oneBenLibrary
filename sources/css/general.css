@@ -1,13 +1,34 @@
-/* CSS Document */
+
 @font-face {
 	font-family: 篆书;
 	src: url("../font/篆书字体.ttf");
 }
 
+/*-----------------------常规-----------------------*/
 body {
 	background-color: #fff0aa;
 }
 
+p.nText{
+	color: #ca5e00;
+}
+
+a.bLinks {
+	text-decoration: none;
+	color: #E5A100;
+}
+
+div.back{
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+div.contents{
+	padding-left: 10%;
+}
+
+/*-----------------------主页-----------------------*/
 #mainTitle {
 	font-family: zhuanshu 楷体 黑体;
 	font-size: 300%;
@@ -21,23 +42,7 @@ body {
 	width: 150px;
 }
 
-.indexTitle {
-	margin-top: 15%;
-}
-
-h1.title{
-	margin-top: 15%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #ca5e00;
-}
-
-.bLinks {
-	text-decoration: none;
-	color: #E5A100;
-}
-
+/*菜单*/
 li.menu {
 	list-style: none;
 	font-size: 150%;
@@ -46,6 +51,40 @@ li.menu {
 ul.menu {
 	padding: 0;
 }
+
+img.lsLogo{
+	height: 20px;
+	width: 20px;
+}
+
+/*-----------------------标题-----------------------*/
+.indexTitle {
+	margin-top: 15%;
+}
+
+div.titles{
+	margin-top: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ca5e00;
+	flex-direction: column;
+}
+
+h1 > div.titles{
+	color: #ca5e00
+}
+
+/*.subtitles{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+*/
+
+/*--------------------------------------------------*/
+
 
 #backToHome {
 	margin-top: 30px;
@@ -74,10 +113,4 @@ a.items{
 	align-items: center;
 }
 
-p.nText{
-	color: #ca5e00;
-}
 
-img.lsLogo{
-
-}
