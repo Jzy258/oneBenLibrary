@@ -19,8 +19,6 @@ body {
 #ben {
 	height: 150px;
 	width: 150px;
-	margin-left: 20%;
-	margin-right: 20%;
 }
 
 .title {
@@ -41,7 +39,7 @@ li.menu {
 
 ul.menu {
 	padding: 0;
-	text-align: center;}
+}
 
 #backToHome {
 	margin-top: 15px;
