@@ -14,7 +14,7 @@ p.nText {
 }
 
 a.bLinks {
-	text-decoration: none;
+	/*text-decoration: none;*/
 	color: #E5A100;
 }
 
@@ -25,7 +25,6 @@ div.back {
 }
 
 div.descs{
-	margin-top: 15%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
