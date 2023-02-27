@@ -14,7 +14,6 @@ p.nText {
 }
 
 a.bLinks {
-	/*text-decoration: none;*/
 	color: #E5A100;
 }
 
@@ -31,6 +30,7 @@ div.descs{
 	color: #ca5e00;
 	flex-direction: column;
 	padding-left: 10%;
+	padding-right: 10%;
 }
 
 div.contents {
@@ -38,7 +38,19 @@ div.contents {
 }
 
 /*-----------------------主页-----------------------*/
-#mainTitle {
+div.indexTitle{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+a#indexContentAnchor{
+	text-decoration: none;
+	color: #ca5e00;
+}
+
+h1#mainTitle {
 	font-family: zhuanshu 楷体 黑体;
 	font-size: 300%;
 	margin: 0 0 0 0;
@@ -46,7 +58,7 @@ div.contents {
 	font-weight: 100;
 }
 
-#ben {
+img#indexRotatingBen {
 	height: 150px;
 	width: 150px;
 }
@@ -55,6 +67,8 @@ div.contents {
 li.menu {
 	list-style: none;
 	font-size: 150%;
+	display: flex;
+	justify-content: center;
 }
 
 ul.menu {
@@ -64,6 +78,12 @@ ul.menu {
 img.lsLogo {
 	height: 20px;
 	width: 20px;
+}
+
+#backToHome {
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 20px;
 }
 
 /*-----------------------标题-----------------------*/
@@ -92,14 +112,6 @@ h1 > div.titles {
 */
 
 /*--------------------------------------------------*/
-
-
-#backToHome {
-	margin-top: 30px;
-	margin-left: 50px;
-	margin-bottom: 20px;
-}
-
 img.homeIcon {
 	height: 20px;
 	width: 20px;
