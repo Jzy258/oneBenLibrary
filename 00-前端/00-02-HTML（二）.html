@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>00-02-HTML（二） - 壹苯图书馆</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<link href='http://fonts.googleapis.com/css?family=Andika|Droid+Sans+Mono|Cantarell:400,700,400italic' rel='stylesheet' type='text/css' />
+		<script src="assets/jquery-1.6.1.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="https://jzy258.github.io/oneBenLibrary/assets/style.css"/>
+		<link type="text/css" rel="stylesheet" href="https://jzy258.github.io/oneBenLibrary/assets/assert.css"/>
+		<link type="text/css" rel="stylesheet" href="https://jzy258.github.io/oneBenLibrary/assets/prettify.css"/>
+		<link type="text/css" rel="stylesheet" href="https://jzy258.github.io/oneBenLibrary/assets/pilcrow.css"/>
+		<link type="text/css" rel="stylesheet" href="https://jzy258.github.io/oneBenLibrary/assets/hljs-github.min.css"/>
+		<link type="text/css" rel="stylesheet" href="https://jzy258.github.io/oneBenLibrary/assets/github-oneben.css">
+
+        <link rel="shortcut icon" type="image/x-icon" href="https://jzy258.github.io/oneBenLibrary/sources/img/icon.png">
+
+		<script type="text/javascript" src="https://jzy258.github.io/oneBenLibrary/assets/prettify.js"></script>
+		<!-- Script runner -->
+		<script type="text/javascript" src="https://jzy258.github.io/oneBenLibrary/assets/runner.js"></script>
+		<script type="text/javascript" src="https://jzy258.github.io/oneBenLibrary/assets/linkTo.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div class="clear">
+				<hr>
+			</div>
+			
+			<div id="main">
+
+				<div id="container">
+					<div id="path">
+						<a href="https://jzy258.github.io/oneBenLibrary/">壹苯图书馆</a>-->
+						<a href="https://jzy258.github.io/oneBenLibrary/00-前端">00-前端</a>-->
+						00-02-HTML（二）
+					</div>
+
+					<div id="top_navi">
+						<a href="00-01-HTML（一）.html"> &lt; &lt; 上一页</a> | <a href="00-03-HTML（三）.html">下一页 &gt; &gt;</a>
+					</div>
+
+					<div id="content" class="post"><h1 id="00-02-html（一）"><a class="header-link" href="#00-02-html（一）"></a>00-02-HTML（一）</h1>
+<hr>
+<h2 id="八、图片"><a class="header-link" href="#八、图片"></a>八、图片</h2>
+<ul class="list">
+<li>示例代码</li>
+</ul>
+<pre class="hljs"><code><span class="hljs-comment">&lt;!-- 
+    1. 设置图片宽度和高度的时候，只设置宽度，高度会进行等比例缩放。
+    2. img标签就是图片标签
+    3. src属性是图片的路径
+    4. width设置宽度，height设置高度
+    5. title设置鼠标悬停时显示的信息
+    6. alt设置图片加载失败时显示的提示信息
+ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;sources/icon.png&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;100px&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;150px&quot;</span> <span class="hljs-attr">title</span>=<span class="hljs-string">&quot;乐色之家&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;找不到图片&quot;</span>&gt;</span></code></pre><ul class="list">
+<li>效果</li>
+</ul>
+<img src="./sources/00-01-08-01.png" width="100px" height="150px" title="乐色之家" alt="找不到图片">
+
+<h2 id="九、超链接或热链接"><a class="header-link" href="#九、超链接或热链接"></a>九、超链接或热链接</h2>
+<h3 id="1-超链接的特点"><a class="header-link" href="#1-超链接的特点"></a>1. 超链接的特点</h3>
+<ul class="list">
+<li>有下划线</li>
+<li>鼠标停留在超链接上显示小手形状</li>
+<li>点击超链接能够跳转页面</li>
+<li>示例代码</li>
+</ul>
+<pre class="hljs"><code><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://jzy258.github.io&quot;</span>&gt;</span>乐色之家<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://jzy258.github.io/oneBenLibrary&quot;</span>&gt;</span>壹苯图书馆<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- 
+    href: hot references 热引用
+    href属性后面一定是一个资源的地址
+
+    href后面的路径可以是绝对路径或相对路径，可以是网络中某个资源的路径，也可以是本地资源的路径
+ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;http://jzy258.github.io&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;sources/icon.png&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;width:40px;&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- 
+    超链接有target属性：
+        可取值：
+            _blank 新窗口
+            _self 当前窗口
+            _top 顶级窗口
+            _parent 父级窗口
+ --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://jzy258.github.io&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;sources/icon.png&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;width:40px;&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></code></pre><ul class="list">
+<li>效果</li>
+</ul>
+<p><a href="https://jzy258.github.io">乐色之家</a>
+<a href="https://jzy258.github.io/oneBenLibrary">壹苯图书馆</a></p>
+<a href="http://jzy258.github.io">
+    <img src="./sources/00-01-08-01.png" style="width:40px;">
+</a>
+
+<h3 id="2-超链接的作用"><a class="header-link" href="#2-超链接的作用"></a>2. 超链接的作用</h3>
+<ul class="list">
+<li><p>通过超链接可以从浏览器向服务器发送请求</p>
+</li>
+<li><p>浏览器向服务器发送数据（请求：request）</p>
+</li>
+<li><p>服务器向浏览器发送数据（响应：response）</p>
+</li>
+<li><p>B/S结构的系统，每一个请求都会对应一个响应</p>
+<ul class="list">
+<li>B--请求-&gt;S</li>
+<li>S--响应-&gt;B</li>
+</ul>
+</li>
+<li><p>用户点击超链接和用户在浏览器地址栏上直接输入URL无本质区别，都是向服务器发送请求</p>
+</li>
+<li><p>从操作上来讲，超链接使用更方便</p>
+</li>
+</ul>
+<h2 id="十、列表"><a class="header-link" href="#十、列表"></a>十、列表</h2>
+<h3 id="1-有序列表"><a class="header-link" href="#1-有序列表"></a>1. 有序列表</h3>
+<ul class="list">
+<li>示例代码</li>
+</ul>
+<pre class="hljs"><code><span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>水果<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;I&quot;</span>&gt;</span>
+            <span class="hljs-comment">&lt;!-- 
+                type属性用于改变有序列表前的序号样式：
+                    可选值：
+                        A 大写字母
+                        a 小写字母
+                        1 阿拉伯数字
+                        I 大写罗马数字
+                        i 小写罗马数字
+             --&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>苹果<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>西瓜<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>桃子<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>蔬菜<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>青菜<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>甜点<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span></code></pre><ul class="list">
+<li>效果</li>
+</ul>
+<ol class="list">
+    <li>水果</li>
+        <ol type="I">
+            <li>苹果</li>
+            <li>西瓜</li>
+            <li>桃子</li>
+        </ol>
+    <li>蔬菜</li>
+        <li>青菜</li>
+    <li>甜点</li>
+</ol>
+
+<h3 id="2-无序列表"><a class="header-link" href="#2-无序列表"></a>2. 无序列表</h3>
+<ul class="list">
+<li>示例代码</li>
+</ul>
+<pre class="hljs"><code><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;disc&quot;</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- 
+        type属性用于改变无序列表前的项目符号：
+            可选值：
+                disc 实心圆点
+                circle 空心圆
+                square 实心方块
+     --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>中国<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>北京市<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>天津市<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>上海市<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>无锡市<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>梁溪区<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>锡山区<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>惠山区<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>新吴区<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>滨湖区<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>美国<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>日本<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></code></pre><ul class="list">
+<li>效果</li>
+</ul>
+<ul type="disc">
+    <!-- 
+        type属性用于改变无序列表前的项目符号：
+            可选值：
+                disc 实心圆点
+                circle 空心圆
+                square 实心方块
+     -->
+    <li>中国</li>
+        <ul class="list">
+            <li>北京市</li>
+            <li>天津市</li>
+            <li>上海市</li>
+            <li>无锡市</li>
+                <ul class="list">
+                    <li>梁溪区</li>
+                    <li>锡山区</li>
+                    <li>惠山区</li>
+                    <li>新吴区</li>
+                    <li>滨湖区</li>
+                </ul>
+        </ul>
+    <li>美国</li>
+    <li>日本</li>
+</ul>
+
+<h2 id="十一、表单"><a class="header-link" href="#十一、表单"></a>十一、表单</h2>
+<h3 id="1-表单的作用"><a class="header-link" href="#1-表单的作用"></a>1. 表单的作用</h3>
+<ul class="list">
+<li>表单用于收集用户信息。表单展现之后，用户填写表单，点击提交按钮提交数据给服务器。</li>
+</ul>
+<h3 id="2-怎样创建一个表单？"><a class="header-link" href="#2-怎样创建一个表单？"></a>2. 怎样创建一个表单？</h3>
+<ul class="list">
+<li>使用form标签</li>
+</ul>
+<h3 id="3-一个网页当中可以有多个表单？"><a class="header-link" href="#3-一个网页当中可以有多个表单？"></a>3. 一个网页当中可以有多个表单？</h3>
+<ul class="list">
+<li>无限制</li>
+</ul>
+<h3 id="4-action属性"><a class="header-link" href="#4-action属性"></a>4. action属性</h3>
+<ul class="list">
+<li>最终需要提交数据给服务器，form标签有一个action属性，这个属性用来指定服务器地址<ul class="list">
+<li>action属性用来指定数据提交给哪个服务器</li>
+<li>action属性和超链接中的href一样，都可以向服务器发送请求（request）</li>
+</ul>
+</li>
+<li>示例代码</li>
+</ul>
+<pre class="hljs"><code><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- 画一个提交按钮，这个按钮可以提交表单 --&gt;</span>
+    <span class="hljs-comment">&lt;!-- 画按钮可以使用input输入域，type=&quot;submit&quot;的时候表示该按钮是一个提交按钮，具有提交表单的能力 --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;按钮上显示的文本&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;button&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;按钮上显示的文本&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;reset&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;按钮上显示的文本&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;文本框内的文本&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;password&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;密码框内的文本&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;radio&quot;</span>&gt;</span>
+    <span class="hljs-comment">&lt;!--
+        type属性：
+            submit 提交按钮-用于提交表单
+            button 普通按钮
+            reset 重置表单
+            text 文本框
+            password 密码框
+            checkbox 复选框
+            radio 单选按钮
+     --&gt;</span>
+    <span class="hljs-comment">&lt;!-- value属性用于设置按钮（文本框、密码框等）的显示文本 --&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;https://jzy258.github.io&quot;</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- 这个按钮和普通的超链接没什么区别（超链接和表单都可以向服务器发送请求，但表单可以携带数据） --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;乐色之家&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span></code></pre><ul class="list">
+<li>效果</li>
+</ul>
+<form action="">
+    <input type="submit" value="按钮上显示的文本">
+    <input type="button" value="按钮上显示的文本">
+    <input type="reset" value="按钮上显示的文本">
+    <input type="text" value="文本框内的文本">
+    <input type="password" value="密码框内的文本">
+    <input type="checkbox">
+    <input type="radio">
+</form>
+
+<form action="https://jzy258.github.io">
+    <input type="submit" value="乐色之家">
+</form>
+
+<h3 id="5-表单是以什么格式提交数据给服务器的？"><a class="header-link" href="#5-表单是以什么格式提交数据给服务器的？"></a>5. 表单是以什么格式提交数据给服务器的？</h3>
+<ul class="list">
+<li>action?name=value&amp;name=value&amp;name=value...</li>
+<li>HTTP协议规定必须以这种格式提交给服务器</li>
+<li>表单项写了name属性的，一律会提交给服务器</li>
+</ul>
+<pre class="hljs"><code><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;localhost/ls/test.txt&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>用户名<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;username&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>密码<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;password&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">colspan</span>=<span class="hljs-string">&quot;2&quot;</span> <span class="hljs-attr">align</span>=<span class="hljs-string">&quot;center&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;注册&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;reset&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;清空&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span></code></pre><ul class="list">
+<li>效果</li>
+</ul>
+<form action="localhost/ls/test.txt">
+    <table>
+        <tr>
+            <td>用户名</td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td>密码</td>
+            <td><input type="password" name=""></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="注册">
+                <input type="reset" value="清空">
+            </td>
+        </tr>
+    </table>
+</form>
+						<script>
+							h1s = document.getElementsByTagName("h1");
+							// console.log(h1s);
+							h2s = document.getElementsByTagName("h2");
+							console.log(h2s);
+							h3s = document.getElementsByTagName("h3");
+							// console.log(h3s);
+
+							for (var i = 0; i < h1s.length; i++){
+								h1s[i].setAttribute("id", h1s[i].textContent);
+							}
+							for (var i = 0; i < h2s.length; i++){
+								h2s[i].setAttribute("id", h2s[i].textContent);
+							}
+							for (var i = 0; i < h3s.length; i++){
+								h3s[i].setAttribute("id", h3s[i].textContent);
+							}
+						</script>
+					</div>
+
+					<div id="bottom_navi">
+						<a href="00-01-HTML（一）.html"> &lt; &lt; 上一页</a> | <a href="00-03-HTML（三）.html">下一页 &gt; &gt;</a>
+					</div>
+				</div>
+
+				<div id="sidebar"><ul class="nav nav-list">
+    <li class="sidebar-header-1"><a href="#00-02-html（一）">00-02-HTML（一）</a></li>
+    <li class="sidebar-header-2"><a href="#八、图片">八、图片</a></li>
+    <li class="sidebar-header-2"><a href="#九、超链接或热链接">九、超链接或热链接</a></li>
+    <li class="sidebar-header-3"><a href="#1.-超链接的特点">1. 超链接的特点</a></li>
+    <li class="sidebar-header-3"><a href="#2.-超链接的作用">2. 超链接的作用</a></li>
+    <li class="sidebar-header-2"><a href="#十、列表">十、列表</a></li>
+    <li class="sidebar-header-3"><a href="#1.-有序列表">1. 有序列表</a></li>
+    <li class="sidebar-header-3"><a href="#2.-无序列表">2. 无序列表</a></li>
+    <li class="sidebar-header-2"><a href="#十一、表单">十一、表单</a></li>
+    <li class="sidebar-header-3"><a href="#1.-表单的作用">1. 表单的作用</a></li>
+    <li class="sidebar-header-3"><a href="#2.-怎样创建一个表单？">2. 怎样创建一个表单？</a></li>
+    <li class="sidebar-header-3"><a href="#3.-一个网页当中可以有多个表单？">3. 一个网页当中可以有多个表单？</a></li>
+    <li class="sidebar-header-3"><a href="#4.-action属性">4. action属性</a></li>
+    <li class="sidebar-header-3"><a href="#5.-表单是以什么格式提交数据给服务器的？">5. 表单是以什么格式提交数据给服务器的？</a></li>
+</ul>
+					<script>
+						ula = document.getElementsByClassName("nav nav-list");
+						console.log(ula[0].childNodes);
+						as = ula[0].getElementsByTagName("a");
+						for (var i = 0; i < as.length; i++) {
+							as[i].setAttribute("href", "#" + as[i].textContent)
+						}
+
+						var content = document.createElement("a");
+						var text = document.createTextNode("目录");
+						content.appendChild(text);
+						content.setAttribute("href", "#");
+						var first = ula[0].firstChild;
+						ula[0].insertBefore(content, first)
+
+						// var sh1 = document.getElementsByClassName("sidebar-header-1");
+						// for (var i = sh1.length - 1; i >= 0; i--) {
+						// 	sh1[i].childNodes[0].textContent = "—— " + sh1[i].childNodes[0].textContent;
+						// }
+						// var sh2 = document.getElementsByClassName("sidebar-header-2");
+						// for (var i = sh2.length - 1; i >= 0; i--) {
+						// 	sh2[i].childNodes[0].textContent = "———— " + sh2[i].childNodes[0].textContent;
+						// }
+						// var sh3 = document.getElementsByClassName("sidebar-header-3");
+						// for (var i = sh3.length - 1; i >= 0; i--) {
+						// 	sh3[i].childNodes[0].textContent = "—————— " + sh3[i].childNodes[0].textContent;
+						// }
+
+					</script>
+				</div>
+
+			</div>
+
+			<div class="clear">
+				<hr>
+			</div>
+
+		</div>
+	</body>
+</html>
